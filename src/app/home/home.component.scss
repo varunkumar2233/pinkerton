@@ -1,0 +1,28 @@
+
+.header {
+    padding: 35px 0;
+
+}
+
+nav.navbar {
+    padding: 0;
+    .navbar-right {
+        margin-top: -50px;
+    }
+    li.nav-item {
+        margin-left: 20px;
+    }
+}
+.middle-field h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 29px;
+}
+
+.bottom-field {
+    padding-top: 100px;
+    img {
+        width: 100%;
+    }
+}
+

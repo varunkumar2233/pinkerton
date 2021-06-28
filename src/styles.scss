@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import "scss/_variables.scss";
+
+body {
+    background: #000;
+}
+
+.default-btn {
+    font-family: $defaultFont;
+    background: $primarybtnBg;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 60px;
+    padding: 0 35px;
+    height: 50px;
+    color: $primarybtnColor;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+.default-btn:hover {
+    background: $primarybtnBgHover;
+    color: $primarybtnColorHover;
+}
+
+.only-text-btn {
+    font-family: $defaultFont;
+    background: $transparentbtnBg;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    border-radius: 60px;
+    padding: 0 35px;
+    height: 50px;
+    color: $transparentbtnColor;
+    text-transform: uppercase;
+}
+
+.only-text-btn:hover {
+    color: #ADCBFA;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
