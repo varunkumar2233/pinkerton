@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { AccountWrapperComponent } from './accountDetails/account-wrapper/account-wrapper.component';
 import { LoginComponent } from './accountDetails/login/login.component';
 import { FooterComponent } from './footer/footer.component';
+import { SignUpComponent } from './accountDetails/sign-up/sign-up.component';
+import { LeftWrapperComponent } from './accountDetails/left-wrapper/left-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     AccountWrapperComponent,
     LoginComponent,
-    FooterComponent
+    FooterComponent,
+    SignUpComponent,
+    LeftWrapperComponent
   ],
   imports: [
     BrowserModule,

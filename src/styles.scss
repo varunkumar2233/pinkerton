@@ -44,3 +44,38 @@ body {
 .form-control:focus {
     box-shadow: none;
 }
+
+.outline-btn {
+    border: 1px solid #adcbfa;
+    background: none;
+    color: #adcbfa;
+}
+
+.outline-btn:hover {
+    border: 1px solid #adcbfa;
+    background: #ADCBFA;
+    color: #fff;
+}
+
+
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: #000;
+    font-size: 12px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000;
+    font-size: 12px;
+  }
+  
+  ::placeholder {
+    color: #000;
+    font-size: 12px;
+    margin-top: -3px;
+  }
