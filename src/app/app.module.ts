@@ -9,6 +9,7 @@ import { LoginComponent } from './accountDetails/login/login.component';
 import { FooterComponent } from './footer/footer.component';
 import { SignUpComponent } from './accountDetails/sign-up/sign-up.component';
 import { LeftWrapperComponent } from './accountDetails/left-wrapper/left-wrapper.component';
+import { ForgotPasswordComponent } from './accountDetails/forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LeftWrapperComponent } from './accountDetails/left-wrapper/left-wrapper
     LoginComponent,
     FooterComponent,
     SignUpComponent,
-    LeftWrapperComponent
+    LeftWrapperComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,

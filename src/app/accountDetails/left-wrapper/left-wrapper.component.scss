@@ -1,13 +1,20 @@
 .left-panel {
-    height: 100vh;
-    padding: 75px;
+    padding: 50px;
     color: #fff;
     .logo img {
         margin-left: -20px;
     }
     h1 {
         text-transform: uppercase;
-        font-size: 30px;
+        font-size: 42px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+
+    p {
+        font-size: 22px;
+        line-height: 26px;
+        color: #CCCCCC;
     }
 
     .blank-height {
@@ -22,5 +29,27 @@
             font-family: arial;
         }
     }
+
+}
+
+@media screen and (max-width: 767px) {
+    .left-panel{
+        padding: 30px;
+        color: #fff;
+        .blank-height {
+            height: 20px;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+
+  
 
 }

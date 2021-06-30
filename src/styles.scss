@@ -3,6 +3,16 @@
 
 body {
     background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ddd;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ddd;
 }
 
 .default-btn {
@@ -57,6 +67,9 @@ body {
     color: #fff;
 }
 
+.grey-bg {
+    background: #444;
+}
 
 
 .btn.focus, .btn:focus {
@@ -79,3 +92,44 @@ body {
     font-size: 12px;
     margin-top: -3px;
   }
+
+  .form-field h3 {
+    font-size: 32px;
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #DDDDDD;
+}
+
+.form-field .form-label {
+        color: #DDDDDD;
+        font-size: 16px;
+        font-weight: bold;
+}
+
+
+@media screen and (max-width: 767px) {
+    .grey-bg {
+       padding: 0;
+    }
+
+    .form-field .form-row {
+        display: block;
+    }
+
+    .form-field h3 {
+        font-size: 25px;
+    }
+
+   body .wrapper .copyright {
+        padding: 20px 25px;
+    }
+    body  .wrapper .login-panel {
+        padding:25px !important;
+    
+        .form-field{
+            padding: 0 !important;
+        }
+    }
+
+    }
