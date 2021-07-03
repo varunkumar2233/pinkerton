@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -10,6 +10,8 @@ import { FooterComponent } from './footer/footer.component';
 import { SignUpComponent } from './accountDetails/sign-up/sign-up.component';
 import { LeftWrapperComponent } from './accountDetails/left-wrapper/left-wrapper.component';
 import { ForgotPasswordComponent } from './accountDetails/forgot-password/forgot-password.component';
+import { CreatePasswordComponent } from './accountDetails/create-password/create-password.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,13 +22,18 @@ import { ForgotPasswordComponent } from './accountDetails/forgot-password/forgot
     FooterComponent,
     SignUpComponent,
     LeftWrapperComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    CreatePasswordComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
+    
+   
   ],
-  providers: [],
+  providers: [BsDropdownModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

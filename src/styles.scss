@@ -9,6 +9,12 @@ body {
     line-height: 18px;
 }
 
+@media (min-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1200px;
+}
+}
+
 p {
     font-size: 16px;
     line-height: 18px;
@@ -133,3 +139,12 @@ p {
     }
 
     }
+
+    .dropdown-item:focus, .dropdown-item:hover,
+    .dropdown-item.active, .dropdown-item:active {
+        background-color: #ADCBFA;
+        color: #05206A !important;
+        font-weight: bold;
+    }
+
+  

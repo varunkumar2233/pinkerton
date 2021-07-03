@@ -1,0 +1,90 @@
+.header {
+    .navbar{
+        background-color: #000;
+        color: #fff;
+         img {
+            max-width: 375px;
+        }
+    }
+    .dropdown-toggle::after {
+        display: none;
+    }
+.nav-item button {
+    background: none;
+    border: 0;
+    color: #fff;
+   
+}
+
+.dropdown-menu {
+    padding: 0;
+    margin: 0;
+    background-color: #222222;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #222222;
+    li:last-child a {
+        border: 0 !important;
+    }
+
+    li:first-child a.dropdown-item:hover {
+        border-radius: 8px 8px 0 0 !important;
+    }
+
+    li:last-child a.dropdown-item:hover {
+        border-radius: 0 0 8px 8px  !important;
+    }
+
+.dropdown-item {
+    padding: 15px;
+    font-size: 16px;
+    color: #ddd;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+ }
+
+}
+
+a.nav-link.cart-icon {
+    padding: 12px 10px;
+     i {
+    color: #fff;
+}
+}
+
+.nav-item .icon {
+    font-size: 25px;
+}
+
+i.ion-ios-arrow-down {
+    font-size: 15px;
+    position: relative;
+    display: inline-block;
+    top: -3px;
+    padding-left: 5px;
+}
+
+ .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+}
+
+.show .icon,
+.show i {
+   color: #ADCBFA;
+}
+
+.dropdown,
+.btn-group {
+    position: inherit;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    right: 95px !important;
+    max-width: 280px;
+    left: auto !important;
+    min-width: 280px;
+    top: 58px !important;
+}
