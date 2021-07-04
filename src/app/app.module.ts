@@ -11,6 +11,7 @@ import { LeftWrapperComponent } from './accountDetails/left-wrapper/left-wrapper
 import { ForgotPasswordComponent } from './accountDetails/forgot-password/forgot-password.component';
 import { CreatePasswordComponent } from './accountDetails/create-password/create-password.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
@@ -24,6 +25,7 @@ import { BrowserModule } from '@angular/platform-browser';
     LeftWrapperComponent,
     ForgotPasswordComponent,
     CreatePasswordComponent,
+    PageNotFoundComponent,
     
   ],
   imports: [
