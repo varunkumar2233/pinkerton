@@ -10,15 +10,19 @@
                             aria-controls="dropdown-basic">
                             <i class="ion-md-person icon"></i> <i class="ion-ios-arrow-down"></i>
                     </button>
+                   
                     <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
                         role="menu" aria-labelledby="button-basic">
+                        <div class="dropdown-box">
                       <li role="menuitem"><a class="dropdown-item">Report Purchases</a></li>
                       <li role="menuitem"><a class="dropdown-item">Credit Balances</a></li>
                       <li role="menuitem"><a class="dropdown-item">Profile</a></li>
     
                       <li role="menuitem"><a class="dropdown-item">Log Out</a>
                       </li>
+                    </div>
                     </ul>
+                   
                   </div>
                 
                 </li>
@@ -28,20 +32,56 @@
                             aria-controls="dropdown-basic">
                             <i class="ion-md-notifications icon"></i> <i class="ion-ios-arrow-down"></i>
                     </button>
-                    <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
-                        role="menu" aria-labelledby="button-basic">
-                      <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
-                      <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
-                      <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
-                      <li class="divider dropdown-divider"></li>
-                      <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
-                      </li>
-                    </ul>
+                    <div *dropdownMenu class="dropdown-menu">
+                      <div class="dropdown-box">
+                      <div class="list">
+                      <h4>Your New Purchases</h4>
+                      <p>Description ………..</p>
+                      <p><small>1m</small></p>
+                    </div>
+                      <div class="dropdown-divider"></div>
+                      <div class="list">
+                      <h4>New Crime Index</h4>
+                      <p>Description ………..</p>
+                      <p><small>10m</small></p>
+                    </div>
+                      <button class="btn default-btn">PURCHASE</button>
+                    </div>
+                  </div>
+                   
                   </div>
                   <!-- <a class="nav-link"><i class="ion-md-notifications icon"></i> <i class="ion-ios-arrow-down"></i></a> -->
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link cart-icon"><i class="ion-md-cart icon"></i> </a>
+                <li class="nav-item cart-item">
+                  <div class="btn-group" dropdown>
+                    <button dropdownToggle type="button" class="btn dropdown-toggle"
+                            aria-controls="dropdown-basic">
+                            <i class="ion-md-cart icon"></i><span class="badge cart-count">1</span>
+                    </button>
+                    <div *dropdownMenu class="dropdown-menu">
+                      <div class="dropdown-box">
+                      <div class="list">
+                        <span class="cross-icon"><i class="ion-ios-close"></i></span>
+                      <h4>Crime Index Report</h4>
+                      <p>Platinum</p>
+                      <p class="price">$1,000</p>
+                    </div>
+                      <div class="dropdown-divider"></div>
+                      <div class="list">
+                        <div class="row subtotal-list">
+                          <div class="col-md-8">
+                            <h4 class="subtotal">Subtotal (1 items)</h4>
+                          </div>
+                          <div class="col-md-4 price">$1,000</div>
+                        </div>
+                       </div>
+                      <button class="btn default-btn">VIEW CART</button>
+                    </div>
+                  </div>
+                   
+                  </div>
+               
+                
                 </li>
               </ul>
            

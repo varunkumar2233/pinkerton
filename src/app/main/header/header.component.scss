@@ -9,7 +9,7 @@
     .dropdown-toggle::after {
         display: none;
     }
-.nav-item button {
+.nav-item .btn-group > button {
     background: none;
     border: 0;
     color: #fff;
@@ -76,6 +76,10 @@ i.ion-ios-arrow-down {
    color: #ADCBFA;
 }
 
+.show .cart-count {
+    background-color: #ADCBFA;
+}
+
 .dropdown,
 .btn-group {
     position: inherit;
@@ -87,4 +91,71 @@ i.ion-ios-arrow-down {
     left: auto !important;
     min-width: 280px;
     top: 58px !important;
+}
+
+.list {
+    padding: 15px;
+    
+    h4 {
+        font-size: 16px;
+        color: #EEEEEE;
+        font-weight: bold;
+    }
+    p {
+        font-size: 14px;
+        color: #BBBBBB;
+        margin-bottom: 5px;
+    }
+
+    p.price {
+        font-size: 16px;
+        font-weight: bold;
+        color: #EEEEEE;
+    }
+}
+
+.dropdown-box {
+    max-height: 275px;
+    overflow: auto;
+ .dropdown-divider {
+        margin: 0;
+        border-top: 1px solid #aaa;
+    }
+
+button.btn.default-btn {
+    margin: 0px 15px 20px;
+}
+}
+
+span.cross-icon {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 25px;
+  i {
+    color: #BBBBBB;
+  }
+}
+
+.subtotal-list {
+    color: #DDDDDD;
+    .price {
+        font-size: 16px;
+        font-weight: bold;
+        color: #EEEEEE;
+    }
+}
+
+span.badge.cart-count {
+    background: #fff;
+    color: #333;
+    border-radius: 50%;
+    top: -5px;
+    left: 8px;
+    width: 20px;
+    font-size: 14px;
+    height: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 0;
 }

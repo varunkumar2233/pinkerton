@@ -9,6 +9,10 @@ body {
     line-height: 18px;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media (min-width: 1200px) {
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1200px;
@@ -146,5 +150,26 @@ p {
         color: #05206A !important;
         font-weight: bold;
     }
+
+    /* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #222;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 
   

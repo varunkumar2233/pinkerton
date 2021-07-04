@@ -3,8 +3,8 @@
   <div class="form-field">
       <h3>Sign In</h3>
       <div class="mb-3">
-        <label class="form-label">Username or Email</label>
-        <input type="text" placeholder="username or email" class="form-control">   
+        <label class="form-label">Email</label>
+        <input type="text" placeholder="email" class="form-control">   
       </div>
       <div class="mb-3">
         <label class="form-label">Password</label>
@@ -21,7 +21,7 @@
    
       </div>
       <div class="mb-3">
-        <button class="btn default-btn outline-btn">Sign In</button>
+        <button (click)="gotoHome()" class="btn default-btn outline-btn">Sign In</button>
     </div>
     <div class="mb-3 or-field">
         <span>Or</span>

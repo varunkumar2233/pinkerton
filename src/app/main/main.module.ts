@@ -9,6 +9,7 @@ import { LeftNavigationComponent } from './left-navigation/left-navigation.compo
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { WrapperComponent } from './wrapper/wrapper.component';
+import { TermsConditionComponent } from './terms-condition/terms-condition.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { WrapperComponent } from './wrapper/wrapper.component';
      HeaderComponent,
      WrapperComponent,
     LeftNavigationComponent,
+    TermsConditionComponent,
   ],
   imports: [
     CommonModule,

@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +11,7 @@ import { LeftWrapperComponent } from './accountDetails/left-wrapper/left-wrapper
 import { ForgotPasswordComponent } from './accountDetails/forgot-password/forgot-password.component';
 import { CreatePasswordComponent } from './accountDetails/create-password/create-password.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
