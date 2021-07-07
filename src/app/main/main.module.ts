@@ -12,12 +12,16 @@ import { WrapperComponent } from './wrapper/wrapper.component';
 import { TermsConditionComponent } from './terms-condition/terms-condition.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { TabsetConfig, TabsModule } from 'ngx-bootstrap/tabs';
+import { MainpageComponent } from './mainpage/mainpage.component';
+import { MapHomeComponent } from './map-home/map-home.component';
 @NgModule({
   declarations: [
      HeaderComponent,
      WrapperComponent,
     LeftNavigationComponent,
     TermsConditionComponent,
+    MainpageComponent,
+    MapHomeComponent,
   ],
   imports: [
     CommonModule,
