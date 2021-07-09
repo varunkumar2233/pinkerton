@@ -13,6 +13,6 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
   gotoHome(){
-    this.router.navigateByUrl('/home');
+    this.router.navigateByUrl('/main');
   }
 }
