@@ -25,6 +25,46 @@ p {
     color: #ddd;
 }
 
+.form-check-input:focus {
+    border-color: inherit;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-check
+{
+    padding-left: 0;
+ .form-check-input {
+    margin-left: 0;
+    width: 20px;
+    background: #888888;
+    border: 0;
+    height: 20px;
+    margin-top: 2px;
+    border-radius: 2px !important;
+   
+}
+
+.form-check-label {
+    padding-left: 30px;
+    font-size: 14px;
+    color: #ADCBFA;
+    font-weight: bold;
+}
+
+}
+
+.form-check-input:checked[type=checkbox] {
+    background-image: url(assets/images/check-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+}
+
+.form-check-input:checked {
+    background-color: #adcbfa;
+    border-color: #adcbfa;
+}
+
 .default-btn {
     font-family: $defaultFont;
     background: $primarybtnBg;
@@ -37,6 +77,7 @@ p {
     color: $primarybtnColor;
     text-transform: uppercase;
     transition: all .5s;
+    letter-spacing: 1px;
 }
 
 .default-btn:hover {
@@ -187,4 +228,8 @@ h3 {
     font-weight: bold;
     font-family: arial;
     margin: 0 0 20px;
+}
+
+.border-bottom-none {
+    border-bottom: 0 !important;
 }

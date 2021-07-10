@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   }
 
   gotoHome (){
-    this.router.navigateByUrl('/home');
+    this.router.navigateByUrl('/signup');
   }
 
 }
