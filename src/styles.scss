@@ -233,3 +233,18 @@ h3 {
 .border-bottom-none {
     border-bottom: 0 !important;
 }
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.dropdown-toggle::after {
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #888888;
+    border-left: 1px solid #888888;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-45deg);
+    margin-left: 6px;
+}
