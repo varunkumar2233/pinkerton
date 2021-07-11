@@ -13,6 +13,7 @@ import { CreatePasswordComponent } from './accountDetails/create-password/create
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { MapOnHomeComponent } from './map-on-home/map-on-home.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { BrowserModule } from '@angular/platform-browser';
     ForgotPasswordComponent,
     CreatePasswordComponent,
     PageNotFoundComponent,
+    MapOnHomeComponent,
     
   ],
   imports: [
