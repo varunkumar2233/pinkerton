@@ -3,7 +3,7 @@
     <li><a (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="collapseBasic">CRIME INDEX <i class="ion-ios-arrow-down"></i></a>
         <div id="collapseBasic" [collapse]="isCollapsed">
             <ul class="dropdown">
-                <li><a>SAMPLE REPORTS</a></li>
+                <li><a routerLink="sampleReports">SAMPLE REPORTS</a></li>
                 <li><a>CREDITS</a></li>
             </ul>
           </div>

@@ -14,6 +14,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { TabsetConfig, TabsModule } from 'ngx-bootstrap/tabs';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { MapHomeComponent } from './map-home/map-home.component';
+import { SampleReportsComponent } from './sample-reports/sample-reports.component';
 @NgModule({
   declarations: [
      HeaderComponent,
@@ -22,6 +23,7 @@ import { MapHomeComponent } from './map-home/map-home.component';
     TermsConditionComponent,
     MainpageComponent,
     MapHomeComponent,
+    SampleReportsComponent,
   ],
   imports: [
     CommonModule,
