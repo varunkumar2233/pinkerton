@@ -126,3 +126,83 @@
         width: 100%;
     }
 }
+
+
+/*map form section*/
+
+.map-form-field {
+    position: absolute;
+    top: 50px;
+    z-index: 99;
+    width: 100%;
+    left: 35px;
+
+    .dropdown .btn {
+        background: #222222;
+        color: #888;
+        font-size: 14px;
+        height: 46px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .search-field input {
+        background: #222;
+        height: 46px;
+        color: #DDDDDD;
+        font-size: 14px;
+        border-radius: 10px;
+        padding-right: 40px;
+    }
+
+    .search-icon {
+        position: absolute;
+        right: 0;
+        height: 46px;
+        font-size: 22px;
+        padding: 13px 15px;
+        z-index: 9;
+    }
+}
+
+
+.index-report-available-box{
+.card {
+    background: #222222;
+    border: 0;
+    margin: 20px 0;
+    max-width: 420px;
+    border-radius: 10px;
+}
+
+.card-header {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    line-height: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+button.btn.default-btn {
+    height: 46px;
+    line-height: 46px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+span.cross {
+    float: right;
+    color: #CCCCCC;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+p.notification-text {
+    font-size: 12px;
+    color: #FFABA0;
+    margin-bottom: 10px;
+}
+}
