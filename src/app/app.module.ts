@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -14,7 +15,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { MapOnHomeComponent } from './map-on-home/map-on-home.component';
-
+import { AlertModule } from 'ngx-bootstrap/alert';
+//import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,8 +35,10 @@ import { MapOnHomeComponent } from './map-on-home/map-on-home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
-    
+    FormsModule,
+    BrowserAnimationsModule,
+    AlertModule.forRoot(),
+  //  TypeaheadModule.forRoot()
    
   ],
   providers: [BsDropdownModule],

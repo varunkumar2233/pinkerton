@@ -1,3 +1,8 @@
+<div class="errorAlertMessages" *ngIf="loginFail">
+<alert type="warning">
+  We couldn’t find an account that matches the email and password entered. Please check your credentials and try again.
+</alert>
+</div>
 <div class="login-panel">
   <p class="not-member">Not a member? <a routerLink="/signup" class="sign-up-link">Sign up now</a></p>
   <div class="form-field">

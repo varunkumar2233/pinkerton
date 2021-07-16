@@ -1,10 +1,17 @@
 <div class="wrapper">
+ 
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
               <left-wrapper></left-wrapper>
             </div>
+            
             <div class="col-md-8 pr-0 grey-bg">
+              <div class="successAlertMessages" *ngIf="signupSuccess">
+                <alert type="success">
+                  If the email address entered was used to create an account, instructions will be sent to you. Please check your email.
+                </alert>
+                </div>
                 <div class="login-panel">
                     <p class="not-member">Already a member? <a routerLink="/login" class="sign-up-link">Sign in</a></p>
                     <div class="form-field">

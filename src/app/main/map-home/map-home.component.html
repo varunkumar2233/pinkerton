@@ -11,24 +11,24 @@
                   <div class="map-form-field col-md-8">
                     <div class="row top-field">
                       <div class="col-md-3">
-                          <div class="filter">
-                            <div class="dropdown">
-                                <button class="btn dropdown-toggle" type="button" id="dropdownCountryButton" data-toggle="dropdown">
-                                  County
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownCountryButton">
-                                  <a class="dropdown-item">County</a>
-                                  <a class="dropdown-item">County</a>
-                                  <a class="dropdown-item">County</a>
+                        <div class="search-field custom-dropdown">
+                          <div class="input-group has-validation">
+                            <input class="form-control" placeholder="country"  [(ngModel)]="countryselected"
+                             [typeahead]="countries"
+                             class="form-control">
+                                <div class="input-group-postpend search-icon">
+                                  <span><i class="ion-ios-arrow-down"></i></span>
                                 </div>
-                              </div>
-                          </div>
+                            </div>
+                        </div>
                       </div>
                       <div class="col-md-9">
                           <div class="search-field">
                             <div class="input-group has-validation">
-                         <input type="text" class="form-control" placeholder="search">
-                                <div class="input-group-postpend search-icon">
+                              <input class="form-control" placeholder="search"  [(ngModel)]="addressselected"
+                               [typeahead]="address"
+                               class="form-control">
+                                  <div class="input-group-postpend search-icon">
                                     <span><i class="ion-ios-search"></i></span>
                                   </div>
                               </div>

@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MainRoutingModule } from './main-routing.module';
 import { HeaderComponent } from './header/header.component';
-
+import { HttpClientModule } from '@angular/common/http';
 import { LeftNavigationComponent } from './left-navigation/left-navigation.component';
 
 import { CollapseModule } from 'ngx-bootstrap/collapse';
@@ -15,6 +15,7 @@ import { TabsetConfig, TabsModule } from 'ngx-bootstrap/tabs';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { MapHomeComponent } from './map-home/map-home.component';
 import { SampleReportsComponent } from './sample-reports/sample-reports.component';
+import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
 @NgModule({
   declarations: [
      HeaderComponent,
@@ -28,10 +29,13 @@ import { SampleReportsComponent } from './sample-reports/sample-reports.componen
   imports: [
     CommonModule,
     MainRoutingModule,
+    FormsModule,
+    HttpClientModule,
     CollapseModule.forRoot(),
     BsDropdownModule.forRoot(),
     ModalModule.forRoot(),
-    TabsModule.forRoot()
+    TabsModule.forRoot(),
+    TypeaheadModule.forRoot()
   ],
   providers: [BsDropdownModule, TabsetConfig],
 
