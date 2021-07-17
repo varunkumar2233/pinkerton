@@ -1,0 +1,47 @@
+.inner-content {
+    padding: 25px 80px 40px;
+
+    h5 {
+        font-size: 21px;
+        font-weight: bold;
+        color: #BBBBBB;
+    }
+
+    .info-left {
+        background: #444;
+        border-radius: 10px;
+        padding-bottom: 10px;
+
+        p.set-title {
+            padding: 20px;
+            border-bottom: 1px solid #DDDDDD;
+        }
+
+        a.setting-link {
+            color: #EEEEEE;
+            padding: 0px 20px;
+            display: block;
+            cursor: pointer;
+        }
+    }
+
+    .info-right {
+        background: #444;
+        padding: 20px;
+        border-radius: 10px;
+        input.form-control{
+              background: #666666;
+              border-radius: 10px;
+              border: 0;
+              box-shadow: 0 0 5px #333;
+              min-height: 50px;
+              color: #ddd;
+        }
+    
+        .form-label {
+            color: #DDDDDD;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}

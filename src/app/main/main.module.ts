@@ -16,6 +16,8 @@ import { MainpageComponent } from './mainpage/mainpage.component';
 import { MapHomeComponent } from './map-home/map-home.component';
 import { SampleReportsComponent } from './sample-reports/sample-reports.component';
 import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
+import { CreditsComponent } from './credits/credits.component';
+import { ProfileAccountSettingComponent } from './profile-account-setting/profile-account-setting.component';
 @NgModule({
   declarations: [
      HeaderComponent,
@@ -25,6 +27,8 @@ import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
     MainpageComponent,
     MapHomeComponent,
     SampleReportsComponent,
+    CreditsComponent,
+    ProfileAccountSettingComponent,
   ],
   imports: [
     CommonModule,

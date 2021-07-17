@@ -217,6 +217,7 @@ p {
     background: #222;
     min-height: 400px;
     box-shadow: 0 0 2px #000;
+    border-radius: 6px;
 }
 // .mainClassto{
 //     border-radius: 10px;
@@ -316,4 +317,8 @@ h3 {
         color: #05206A !important;
         font-weight: normal;
     }
+}
+
+a.active-link {
+    color: #ADCBFA !important;
 }
