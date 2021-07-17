@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MapboxServService } from '../services/mapbox-serv.service';
 import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
+import { TestBed } from '@angular/core/testing';
 @Component({
   selector: '.mapHOmepage',
   templateUrl: './map-home.component.html',
@@ -11,10 +12,14 @@ export class MapHomeComponent implements OnInit {
   constructor(private map: MapboxServService) { }
   addressselected!: string;
   countryselected!: string;
-
-  countries: string[] = [
-    'USA',
-    'India'
+  selectdrop: any= "Select";
+  mx:any = "India";
+  countries = [
+    {countryID:"1", countryName: "India"},
+    {countryID:"2", countryName: "United States"},
+    {countryID:"13", countryName: "South Africa"},
+    {countryID:"333", countryName: "Pakistan"},
+    {countryID:"232", countryName: "China"}
   ];
 
   address: string[] = [
@@ -24,5 +29,10 @@ export class MapHomeComponent implements OnInit {
   ngOnInit(): void {
     this.map.buildMap();
   }
+  
+  getValue = (item : string) =>{
+    console.log(item);
+    this.selectdrop = item;
+}
 
 }
