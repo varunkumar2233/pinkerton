@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
@@ -16,6 +16,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { BrowserModule } from '@angular/platform-browser';
 import { MapOnHomeComponent } from './map-on-home/map-on-home.component';
 import { AlertModule } from 'ngx-bootstrap/alert';
+
 //import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { AlertModule } from 'ngx-bootstrap/alert';
    
   ],
   providers: [BsDropdownModule],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }

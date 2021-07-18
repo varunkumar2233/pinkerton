@@ -10,30 +10,19 @@
                 <div class="inner-box">
                   <div class="map-form-field col-md-8">
                     <div class="row top-field">
-                      <div>
-                        <div class="btn-group" dropdown>
-                          <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+                    
+                      <div class="col-md-3">
+                        <div class="btn-group custom-select-dropdown" dropdown>
+                          <button id="customDropdown" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
                                   aria-controls="dropdown-basic">
                             {{selectdrop}} <span class="caret"></span>
                           </button>
-                          <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+                          <ul *dropdownMenu class="dropdown-menu"
                               role="menu" aria-labelledby="button-basic">
                             <ng-container *ngFor="let contVal of countries">
                             <li (click)="getValue(contVal.countryName)" role="menuitem"><a class="dropdown-item">{{contVal.countryName}}</a></li>
                           </ng-container>
                           </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="search-field custom-dropdown">
-                          <div class="input-group has-validation">
-                            <input class="form-control" placeholder="country"  [(ngModel)]="countryselected"
-                             [typeahead]="countries"
-                             class="form-control">
-                                <div class="input-group-postpend search-icon">
-                                  <span><i class="ion-ios-arrow-down"></i></span>
-                                </div>
-                            </div>
                         </div>
                       </div>
                       <div class="col-md-9">

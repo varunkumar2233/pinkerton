@@ -322,3 +322,161 @@ h3 {
 a.active-link {
     color: #ADCBFA !important;
 }
+
+
+.custom-select-dropdown {
+
+    ul.dropdown-menu.show {
+        background: #222;
+        border-radius: 10px;
+        margin-top: 15px;
+        border: 0;
+        padding: 0;
+        min-width: 200px;
+    }
+
+    #customDropdown {
+        background: #222;
+        border: 0;
+        height: 46px;
+        padding: 10px 15px;
+        text-align: left;
+        border-radius: 10px;
+        max-width: 200px;
+        width: 140px;
+        font-size: 14px;
+ }
+    #customDropdown:after {
+        border-top: 0;
+        float: right;
+        margin-top: 5px;
+        border-right: 0;
+        border-bottom: 1px solid #888888;
+        border-left: 1px solid #888888;
+        width: 8px;
+        height: 8px;
+        transform: rotate(-45deg);
+        margin-left: 6px;
+    }
+    .dropdown-item {
+        padding: 12px 15px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        cursor: pointer;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .dropdown-menu li:first-child a.dropdown-item:hover {
+        border-radius: 10px 10px 0 0 !important;
+    }
+
+    .dropdown-menu li:last-child a.dropdown-item:hover {
+        border-radius: 0 0 10px 10px !important;
+    }
+    }
+
+
+    .credit-tab-panel {
+        .nav-tabs {
+            border: 1px solid #ADCBFA;
+            width: 294px;
+            border-radius: 30px;
+            margin: 0 !important;
+            height: 55px;
+            padding: 0;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+
+        .nav-tabs .nav-link {
+            margin-bottom: 0;
+            border: 0;
+            border-radius: 0;
+        }
+
+        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+            color: #05206A;
+            background-color: #ADCBFA;
+            border: 0;
+            border-radius: 0;
+            margin: 0;
+            height: 53px;
+        }
+
+        .nav-link {
+            color: #ADCBFA;
+            font-weight: bold;
+            line-height: 40px;
+            text-align: center;
+            height: 53px;
+        }
+
+        li.nav-item {
+            flex: auto;
+        }
+
+        li.nav-item:first-child a.active,
+        li.nav-item:first-child a:hover {
+            border-radius: 30px 0 0 30px;
+        }
+
+        li.nav-item:last-child a:hover,
+        li.nav-item:last-child a.active {
+            border-radius: 0 30px 30px 0;
+        }
+
+        .nav-link:focus, .nav-link:hover {
+            background-color: #ADCBFA;
+            color: #05206A;
+        }
+    }
+
+    :focus-visible {
+        outline: 0;
+    }
+
+   .credit-tab-panel .ngx-slider .ngx-slider-pointer {
+        width: 24px;
+        border: 1px solid #adcbfa;
+        height: 24px;
+        top: -12px;
+        background-color: #222222;
+    }
+
+   .credit-tab-panel .ngx-slider .ngx-slider-bar {
+        height: 2px;
+        background: #888888;
+    }
+
+    .credit-tab-panel .ngx-slider .ngx-slider-bubble {
+        bottom: -6px;
+    }
+
+    span.ngx-slider-span.ngx-slider-bubble.ngx-slider-limit.ngx-slider-floor {
+        left: -20px !important;
+        color: #ADCBFA;
+        font-size: 16px;
+        font-weight: bold;
+        opacity: 1 !important;
+    }
+
+    .credit-tab-panel  .ngx-slider .ngx-slider-pointer:after {
+        display: none;
+    }
+
+    span.ngx-slider-span.ngx-slider-bubble.ngx-slider-limit.ngx-slider-ceil {
+        right: -35px !important;
+        left: auto !important;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ADCBFA;
+        opacity: 1 !important;
+    }
+
+    span.ngx-slider-span.ngx-slider-bubble.ngx-slider-model-value {
+        font-size: 12px;
+        bottom: -32px !important;
+        font-weight: bold;
+        color: #888888;
+    }

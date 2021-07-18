@@ -18,6 +18,9 @@ import { SampleReportsComponent } from './sample-reports/sample-reports.componen
 import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
 import { CreditsComponent } from './credits/credits.component';
 import { ProfileAccountSettingComponent } from './profile-account-setting/profile-account-setting.component';
+import { NgxSliderModule } from '@angular-slider/ngx-slider';
+import { ReachUsComponent } from './reach-us/reach-us.component';
+
 @NgModule({
   declarations: [
      HeaderComponent,
@@ -29,11 +32,13 @@ import { ProfileAccountSettingComponent } from './profile-account-setting/profil
     SampleReportsComponent,
     CreditsComponent,
     ProfileAccountSettingComponent,
+    ReachUsComponent,
   ],
   imports: [
     CommonModule,
     MainRoutingModule,
     FormsModule,
+    NgxSliderModule,
     HttpClientModule,
     CollapseModule.forRoot(),
     BsDropdownModule.forRoot(),
