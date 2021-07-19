@@ -16,7 +16,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { BrowserModule } from '@angular/platform-browser';
 import { MapOnHomeComponent } from './map-on-home/map-on-home.component';
 import { AlertModule } from 'ngx-bootstrap/alert';
-
+import { ReactiveFormsModule } from '@angular/forms';
 //import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
 @NgModule({
   declarations: [
@@ -37,6 +37,7 @@ import { AlertModule } from 'ngx-bootstrap/alert';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     AlertModule.forRoot(),
   //  TypeaheadModule.forRoot()
