@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CartComponent } from './cart/cart.component';
 import { CreditsComponent } from './credits/credits.component';
+import { CrossComponent } from './cross/cross.component';
 
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { ProfileAccountSettingComponent } from './profile-account-setting/profile-account-setting.component';
@@ -20,8 +21,8 @@ const routes: Routes = [
     { path: 'sampleReports', component: SampleReportsComponent },
     { path: 'credits', component: CreditsComponent, },
     { path: 'profileAccountSetting', component: ProfileAccountSettingComponent },
-
     { path: 'getintouch', component: ReachUsComponent },
+    { path: 'cross', component: CrossComponent },
 
     
 

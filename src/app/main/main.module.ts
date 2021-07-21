@@ -20,6 +20,7 @@ import { CreditsComponent } from './credits/credits.component';
 import { ProfileAccountSettingComponent } from './profile-account-setting/profile-account-setting.component';
 import { NgxSliderModule } from '@angular-slider/ngx-slider';
 import { ReachUsComponent } from './reach-us/reach-us.component';
+import { CrossComponent } from './cross/cross.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { ReachUsComponent } from './reach-us/reach-us.component';
     CreditsComponent,
     ProfileAccountSettingComponent,
     ReachUsComponent,
+    CrossComponent,
   ],
   imports: [
     CommonModule,
