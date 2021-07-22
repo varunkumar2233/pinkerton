@@ -134,59 +134,69 @@ hr {
     }
 }
 
-.accordion {
-    .card>.card-header {
-        border-radius: 0;
-        margin: 0;
-        padding: 0;
-        .form-group.form-check {
-            padding: 18px 20px;
-            height: 53px;
-            
-            background: #666;
-        }
 
-     .form-check-input {
-            margin-left: 0;
-        }
-
-        .form-check-label {
-            margin-bottom: 0;
-            padding-left: 30px;
-            display: block;
-            color: #DDDDDD;
-            font-size: 18px;
-        }
-    }
-
-    .form-group[aria-expanded="true"] {
-        background: #E8F0FD;
-        color: #000;
-    }
-
-    .card-body {
-        padding: 20px;
-    }
-}
 
 #billingAddress {
 .card {
     padding: 20px;
 }
 
-.form-control {
-    background-color: #666;
-    box-shadow: 0 0 5px #333;
-    border: 0;
+.custom-select-dropdown #customDropdown {
+    background: #666;
 }
 
-.card.order-summary {
-    padding: 0 !important;
+.show button {
+    background: #E8F0FD !important;
+    border-radius: 10px 10px 0 0 !important;
+    color: #000;
+    font-size: 16px;
 }
+
+.form-control {
+    background-color: #666;
+
+}
+
+
 
 .promo-field .item-left, .promo-field .item-right {
     margin-bottom: 5px;
 }
+ .btn-group {
+    width: 100%;
+}
+
+button#customDropdown {
+    width: 100%;
+    max-width: 100%;
+}
+
+.custom-select-dropdown ul.dropdown-menu.show {
+    background: #EEEEEE;
+    border-radius: 0 0 10px 10px;
+    border: 0;
+    margin-top: 0;
+    border-top: 1px solid #ddd;
+    width: 100%;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.dropdown-item {
+    color: #000000;
+}
+
+.dropdown-menu li:first-child a.dropdown-item:hover {
+    border-radius: 0;
+}
+
+.dropdown-menu li:last-child a {
+    border: 0;
+}
 
 }
 
+
+#billingAddress .card.order-summary {
+    padding: 0;
+}

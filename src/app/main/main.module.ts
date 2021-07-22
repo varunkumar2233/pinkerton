@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MainRoutingModule } from './main-routing.module';
@@ -21,6 +21,9 @@ import { ProfileAccountSettingComponent } from './profile-account-setting/profil
 import { NgxSliderModule } from '@angular-slider/ngx-slider';
 import { ReachUsComponent } from './reach-us/reach-us.component';
 import { CrossComponent } from './cross/cross.component';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { CartComponent } from './cart/cart.component';
+import { PaymentTabComponent } from './cart/payment-tab/payment-tab.component';
 
 @NgModule({
   declarations: [
@@ -32,10 +35,13 @@ import { CrossComponent } from './cross/cross.component';
     MapHomeComponent,
     SampleReportsComponent,
     CreditsComponent,
+    CartComponent,
     ProfileAccountSettingComponent,
     ReachUsComponent,
     CrossComponent,
+    PaymentTabComponent,
   ],
+  exports: [PaymentTabComponent],
   imports: [
     CommonModule,
     MainRoutingModule,
@@ -46,8 +52,10 @@ import { CrossComponent } from './cross/cross.component';
     BsDropdownModule.forRoot(),
     ModalModule.forRoot(),
     TabsModule.forRoot(),
-    TypeaheadModule.forRoot()
+    TypeaheadModule.forRoot(),
+    AccordionModule.forRoot()
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [BsDropdownModule, TabsetConfig],
 
 })

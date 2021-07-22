@@ -60,6 +60,14 @@ p {
     background-position: 3px 3px;
 }
 
+
+accordion .form-check-input:checked[type=radio] {
+    background-image: url(assets/images/check-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    background-color: #adcbfa !important;
+}
+
 .form-check-input:checked {
     background-color: #adcbfa;
     border-color: #adcbfa;
@@ -523,3 +531,52 @@ input.form-control:focus {
 .form-group {
     position: relative;
 }
+
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+
+accordion {
+
+    .panel-body.card-block.card-body {
+        background: #444;
+        padding: 0;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .panel.card {
+       margin-bottom: 10px;
+       border: 0;
+       background: #666666 !important;
+       border-radius: 10px !important;
+   }
+   .form-check-input {
+       background: #DDDDDD;
+       height: 20px;
+       margin: 0;
+   }
+   
+   .form-check-label {
+       padding-left: 35px;
+       font-size: 18px;
+       color: #DDDDDD;
+       font-weight: 400;
+       line-height: 24px;
+   }
+
+   .panel-open  {
+    label.form-check-label {
+        color: #000;
+    }
+
+    .card-header {
+        background: #E8F0FD;
+    }
+
+   .card-header:first-child {
+    border-radius: 10px 10px 0 0;
+}
+   }
+
+   }
