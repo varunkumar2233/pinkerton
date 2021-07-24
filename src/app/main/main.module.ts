@@ -24,6 +24,9 @@ import { CrossComponent } from './cross/cross.component';
 import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { CartComponent } from './cart/cart.component';
 import { PaymentTabComponent } from './cart/payment-tab/payment-tab.component';
+import { InformationOverviewComponent } from './profile-account-setting/information-overview/information-overview.component';
+import { ChangePasswordComponent } from './profile-account-setting/change-password/change-password.component';
+import { PaymentMethodComponent } from './profile-account-setting/payment-method/payment-method.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +43,9 @@ import { PaymentTabComponent } from './cart/payment-tab/payment-tab.component';
     ReachUsComponent,
     CrossComponent,
     PaymentTabComponent,
+    InformationOverviewComponent,
+    ChangePasswordComponent,
+    PaymentMethodComponent,
   ],
   exports: [PaymentTabComponent],
   imports: [
@@ -53,7 +59,8 @@ import { PaymentTabComponent } from './cart/payment-tab/payment-tab.component';
     ModalModule.forRoot(),
     TabsModule.forRoot(),
     TypeaheadModule.forRoot(),
-    AccordionModule.forRoot()
+    AccordionModule.forRoot(),
+
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [BsDropdownModule, TabsetConfig],

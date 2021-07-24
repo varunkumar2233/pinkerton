@@ -15,20 +15,20 @@
         p.set-title {
             padding: 20px;
             border-bottom: 1px solid #DDDDDD;
+            margin: 0 0 5px;
         }
 
         a.setting-link {
             color: #EEEEEE;
-            padding: 0px 20px;
-            display: block;
-            cursor: pointer;
+    padding: 8px 20px;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
         }
     }
 
     .info-right {
-        background: #444;
-        padding: 20px;
-        border-radius: 10px;
+  
         input.form-control{
               background: #666666;
               border-radius: 10px;
@@ -37,11 +37,24 @@
               min-height: 50px;
               color: #ddd;
         }
-    
-        .form-label {
-            color: #DDDDDD;
-            font-size: 16px;
-            font-weight: bold;
-        }
+ 
+      
     }
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: #ADCBFA !important;
+}
+
+.default-btn {
+    line-height: 46px;
+    height: 46px;
+}
+
+.form-label {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    color: #ddd;
 }
