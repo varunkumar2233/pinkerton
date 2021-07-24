@@ -27,7 +27,7 @@ import { PaymentTabComponent } from './cart/payment-tab/payment-tab.component';
 import { InformationOverviewComponent } from './profile-account-setting/information-overview/information-overview.component';
 import { ChangePasswordComponent } from './profile-account-setting/change-password/change-password.component';
 import { PaymentMethodComponent } from './profile-account-setting/payment-method/payment-method.component';
-
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 @NgModule({
   declarations: [
      HeaderComponent,
@@ -60,6 +60,7 @@ import { PaymentMethodComponent } from './profile-account-setting/payment-method
     TabsModule.forRoot(),
     TypeaheadModule.forRoot(),
     AccordionModule.forRoot(),
+    CarouselModule.forRoot()
 
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],

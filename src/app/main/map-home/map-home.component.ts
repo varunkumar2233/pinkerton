@@ -1,14 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { MapboxServService } from '../services/mapbox-serv.service';
 import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
+import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
+import { WelcomePinkertonComponent } from 'src/app/welcome-pinkerton/welcome-pinkerton.component';
 @Component({
   selector: '.mapHOmepage',
   templateUrl: './map-home.component.html',
   styleUrls: ['./map-home.component.scss']
 })
 export class MapHomeComponent implements OnInit {
-
-  constructor(private map: MapboxServService) { }
+  bsModalRef!: BsModalRef;
+  constructor(private map: MapboxServService, private modalService: BsModalService) { }
   addressselected!: string;
   countryselected!: string;
   selectdrop: any= "Country";
@@ -30,8 +32,11 @@ export class MapHomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.map.buildMap();
-  }
 
+    this.bsModalRef = this.modalService.show(WelcomePinkertonComponent, Object.assign({}, { class: 'welcome-popup' }));
+    this.bsModalRef.content.closeBtnName = 'Close';
+  }
+  
   getValue = (item : string) =>{
     console.log(item);
     this.selectdrop = item;

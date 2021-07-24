@@ -17,7 +17,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MapOnHomeComponent } from './map-on-home/map-on-home.component';
 import { AlertModule } from 'ngx-bootstrap/alert';
 import { ReactiveFormsModule } from '@angular/forms';
+import { WelcomePinkertonComponent } from './welcome-pinkerton/welcome-pinkerton.component';
 //import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +33,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     CreatePasswordComponent,
     PageNotFoundComponent,
     MapOnHomeComponent,
+    WelcomePinkertonComponent,
     
   ],
   imports: [
@@ -40,6 +43,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     AlertModule.forRoot(),
+    CarouselModule.forRoot()
   //  TypeaheadModule.forRoot()
    
   ],
