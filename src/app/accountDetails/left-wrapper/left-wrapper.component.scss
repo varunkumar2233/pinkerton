@@ -36,19 +36,22 @@
 
 @media screen and (max-width: 767px) {
     .left-panel{
-        padding: 30px;
-        color: #fff;
+        padding: 20px 18px;
+    color: #fff;
         .blank-height {
             height: 20px;
         }
 
         h1 {
-            font-size: 30px;
+            font-size: 21px;
+            letter-spacing: 2px;
+            text-align: center;
         }
 
         p {
-            font-size: 15px;
-            line-height: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
         }
     }
 

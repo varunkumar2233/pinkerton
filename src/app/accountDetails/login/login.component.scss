@@ -58,6 +58,26 @@ a.sign-up-link {
     cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+ p.not-member {
+        text-align: center;
+        padding: 25px 0;
+    }
 
+    .signup-btn-field {
+        text-align: center;
+        padding: 40px 0 30px !important;
+    }
+
+    .signup-google-btn-field {
+        text-align: center;
+        margin: 40px 0 20px !important;
+    }
+
+    .or-field span:after {
+        left: 10%;
+        width: 90%;
+        top: 10px;
+    }
 }
+

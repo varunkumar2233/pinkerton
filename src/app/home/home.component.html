@@ -6,10 +6,10 @@
           <div class="navbar-right">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <button type="button" routerLink="/login" class="btn only-text-btn sign-in-btn">Sign In</button>
+                <button type="button" routerLink="/login" class="btn d-none d-lg-block only-text-btn sign-in-btn">Sign In</button>
               </li>
               <li class="nav-item">
-                <button type="button" routerLink="/signup" class="btn default-btn sign-up-btn">Sign Up</button>
+                <button type="button" routerLink="/signup" class="btn d-none d-lg-block default-btn sign-up-btn">Sign Up</button>
               </li>
             
              
@@ -29,6 +29,7 @@
 <p>Comprehensive risk technoloy to navigate incoming threats</p>
 <div class="button-field">
     <button (click)="gotoHome()" class="btn default-btn">Sign Up with Email</button>
+    <button (click)="gotoHome()" class="btn d-lg-none default-btn only-text-btn">Sign In with Email</button>
 </div>
 </div>
     </div>

@@ -677,3 +677,15 @@ li {
 .modal-backdrop.show {
     opacity: 0;
 }
+
+@media screen and (max-width: 767px) {
+
+    .successAlertMessages .alert-success,
+    .errorAlertMessages .alert-warning {
+        font-size: 18px;
+        padding: 12px 10px;
+        height: 94px;
+        line-height: 22px;
+    }
+}
+

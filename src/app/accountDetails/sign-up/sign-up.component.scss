@@ -69,3 +69,27 @@
  
     }
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper p.not-member {
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .signup-btn-field {
+        text-align: center;
+        margin: 40px 0 30px !important;
+    }
+
+    .signup-google-btn-field {
+        text-align: center;
+        margin: 40px 0 20px !important;
+    }
+
+   .wrapper .or-field span:after {
+        left: 10%;
+        width: 90%;
+        top: 10px;
+    }
+
+}
