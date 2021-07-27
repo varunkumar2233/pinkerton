@@ -65,3 +65,17 @@ button.default-btn.btn {
     font-size: 14px;
     margin: 10px 0;
 }
+
+
+@media screen and (max-width: 767px) {
+    .card .card-title label.form-check-label {
+        font-size: 16px;
+    }
+    .card-icon {
+        display: none;
+    }
+
+    .card-link+.card-link {
+        float: right;
+    }
+}

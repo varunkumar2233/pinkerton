@@ -208,3 +208,40 @@ p.notification-text {
 }
 }
 
+@media screen and (max-width: 767px) {
+
+    .inner-box {
+        margin: 0;
+    }
+.cart-panel {
+    padding: 0 15px;
+}
+
+h3 {
+    font-size: 21px;
+    margin: 20px 0 20px;
+}
+
+.index-report-available-box {
+    .col-md-4 {
+        display: none;
+    }
+    .col-md-8 {
+        text-align: center;
+    }
+}
+
+.filter {
+    max-width: 120px;
+    margin-bottom: 8px;
+}
+.view-report {
+    display: none;
+}
+
+.report-panel td.action-icon {
+    text-align: center;
+    min-width: 125px;
+}
+
+}

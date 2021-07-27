@@ -203,6 +203,7 @@ accordion .form-check-input:checked[type=radio] {
     /* width */
 ::-webkit-scrollbar {
     width: 5px;
+    height: 3px;
   }
   
   /* Track */
@@ -688,7 +689,6 @@ li {
         line-height: 22px;
     }
 
-
     .header {
         a.navbar-brand {
             margin: 10px auto;
@@ -803,5 +803,25 @@ li {
     }
 
 }
+
+.inner-box {
+    margin: 0 20px;
+
+    .inner-content {
+        padding: 25px 20px 40px !important;
+    }
+
+    .info-left {
+        margin-bottom: 15px;
+    }
+}
+
+
+.right-content h3 {
+    font-size: 21px;
+    margin: 20px 20px 20px;
+}
+
+
 
 }

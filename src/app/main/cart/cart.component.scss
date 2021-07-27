@@ -200,3 +200,24 @@ button#customDropdown {
 #billingAddress .card.order-summary {
     padding: 0;
 }
+
+@media screen and (max-width: 767px) {
+.inner-box {
+    margin: 0;
+}
+
+.tablist-field {
+    padding: 0;
+    text-align: center;
+}
+
+li.nav-item {
+    width: 100%;
+}
+
+.tablist-field li.nav-item a.active {
+    margin-right: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+}
