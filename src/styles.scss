@@ -687,5 +687,121 @@ li {
         height: 94px;
         line-height: 22px;
     }
+
+
+    .header {
+        a.navbar-brand {
+            margin: 10px auto;
+            img {
+                max-width: 325px !important;
+            }
+        }
+
+    ul.navbar-nav.float-right {
+        width: 100%;
+        flex-direction: row;
+        float: none !important;
+    }
+
+    li.nav-item {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    li.nav-item.home,
+    li.nav-item.menu {
+        padding: 12px 0;
+    }
+
+    i.ion-md-home,
+    i.ion-md-menu {
+        font-size: 25px;
+    }
 }
 
+.wrapper .right-content {
+    padding: 0 !important;
+    min-height: auto;
+
+
+.map-form-field {
+    position: absolute;
+    top: 25px;
+    z-index: 99;
+    width: 100%;
+    left: 0;
+}
+
+.report-panel .report-details {
+    padding: 0 15px 30px !important;
+
+
+    .reports-grid-view {
+        overflow-x: auto;
+    }
+
+}
+
+}
+
+ 
+
+    left-navigation .nav,
+    .left-content {
+        display: none;
+    }
+
+    .left-footer {
+
+        display: none;
+    }
+
+.welcome-popup {
+    top: 25%;
+    left: 5%;
+
+    .modal-content {
+        height: auto;
+        background: #000 !important;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 15%;
+        top: 35%;
+    }
+ .carousel-indicators {
+        justify-content: center;
+        margin-left: 15%;
+    }
+ .left-panel {
+        padding: 70px 60px;
+        border-radius: 0 0 10px 10px !important;
+        height: 380px;
+        background: none !important;
+    }
+
+     .left-panel h4 {
+        font-size: 16px;
+    }
+
+ .left-panel .sub-title {
+        line-height: 15px !important;
+        font-size: 12px !important;
+    }
+
+    .left-panel p,
+    .left-panel li {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+   .right-panel {
+        display: none;
+    }
+
+}
+
+}

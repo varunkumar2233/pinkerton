@@ -159,3 +159,14 @@ span.badge.cart-count {
     line-height: 20px;
     padding: 0;
 }
+
+
+@media screen and (max-width: 767px) {
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    max-width: 90% !important;
+    left: 5% !important;
+    min-width: 90%;
+    top: 140px !important;
+}
+
+}
