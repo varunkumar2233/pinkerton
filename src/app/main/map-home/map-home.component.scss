@@ -147,12 +147,13 @@
     }
 
     .search-field input {
-        background: #222;
+        background: #222 !important;
         height: 46px;
-        color: #DDDDDD;
+        color: #fff !important;
         font-size: 14px;
         border-radius: 10px;
         padding-right: 40px;
+        border: 0 !important;
     }
 
     .search-icon {

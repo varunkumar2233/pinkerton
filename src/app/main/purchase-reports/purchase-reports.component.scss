@@ -35,11 +35,18 @@
 
 }
 
+h5 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #DDDDDD;
+}
+
 .service-header {
     display: flex;
     .left {
         display: flex;
-        width: 70%;
+        width: 50%;
         font-size: 18px;
         padding: 20px 20px 15px;
         color: #EEEEEE;
@@ -49,7 +56,7 @@
     .right {
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 50%;
         font-size: 24px;
         padding: 20px;
         color: #EEEEEE;
@@ -85,15 +92,16 @@ span.popular-lebel {
     }
 }
 
-h5 {
-    font-size: 21px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #DDDDDD;
-}
-
 button {
     font-size: 14px;
     height: 46px;
     line-height: 46px;
+}
+
+.row.shop-credits {
+    padding: 30px 0 10px;
+    h5 {
+        border-bottom: 1px solid #DDDDDD;
+        padding-bottom: 10px;
+    }
 }

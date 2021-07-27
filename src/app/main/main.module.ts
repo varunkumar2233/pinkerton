@@ -28,6 +28,7 @@ import { InformationOverviewComponent } from './profile-account-setting/informat
 import { ChangePasswordComponent } from './profile-account-setting/change-password/change-password.component';
 import { PaymentMethodComponent } from './profile-account-setting/payment-method/payment-method.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { PurchaseReportsComponent } from './purchase-reports/purchase-reports.component';
 @NgModule({
   declarations: [
      HeaderComponent,
@@ -46,6 +47,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     InformationOverviewComponent,
     ChangePasswordComponent,
     PaymentMethodComponent,
+    PurchaseReportsComponent,
   ],
   exports: [PaymentTabComponent],
   imports: [
