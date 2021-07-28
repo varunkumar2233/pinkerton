@@ -105,3 +105,29 @@ button {
         padding-bottom: 10px;
     }
 }
+
+
+@media screen and (max-width: 767px) {
+    .service-header .right {
+        font-size: 22px;
+    }
+    span.popular-lebel {
+        font-size: 12px;
+        padding: 4px 10px;
+        height: 25px;
+        margin-right: 8px;
+    }
+
+    .service-header .left {
+        padding: 20px 2px 15px 15px;
+        font-size: 16px;
+    }
+
+    .service-header .right {
+        font-size: 18px;
+        padding: 20px 15px;
+    }
+    .inner-content .service-box {
+        margin-bottom: 20px;
+    }
+}
