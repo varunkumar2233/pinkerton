@@ -806,7 +806,7 @@ li {
 }
 
 .inner-box {
-    margin: 0 20px;
+    margin: 0 20px 20px;
 
     .inner-content {
         padding: 25px 20px 40px !important;
@@ -823,6 +823,13 @@ li {
     margin: 20px 20px 20px;
 }
 
+tab .ngx-slider {
+    width: 82%;
+    margin: 30px 6% 40px;
+}
 
+.col-md-6.year-field {
+    margin-top: 20px;
+}
 
 }

@@ -157,3 +157,44 @@ button.btn.default-btn.gs-btn:hover {
         width: 50%;
     }
 }
+
+@media screen and (max-width: 767px) {
+.reach-out-btn.text-right {
+    text-align: center !important;
+    margin: 0 auto;
+}
+
+.service-header .left {
+    font-size: 16px;
+    padding: 20px 15px 15px;
+
+    span.popular-lebel {
+        font-size: 11px;
+        padding: 2px 12px;
+        margin-right: 10px;
+    }
+}
+
+.service-header .right {
+        font-size: 20px;
+        padding: 20px 15px 20px 10px;
+}
+
+.card.price-card {
+    margin-bottom: 20px;
+}
+.reach-out-btn .btn {
+    width: 85%;
+    margin-top: 20px;
+}
+
+.row.btn-field {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service-box {
+    padding-bottom: 15px;
+}
+
+}
