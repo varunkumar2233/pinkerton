@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CartComponent } from './cart/cart.component';
+import { CreditBalanceComponent } from './credit-balance/credit-balance.component';
 import { CreditsComponent } from './credits/credits.component';
 import { CrossComponent } from './cross/cross.component';
 
@@ -21,6 +22,8 @@ const routes: Routes = [
     { path: 'cart', component: CartComponent },
     { path: 'sampleReports', component: SampleReportsComponent },
     { path: 'purchaseReports', component: PurchaseReportsComponent },
+    { path: 'creditBalance', component: CreditBalanceComponent },
+    
     { path: 'credits', component: CreditsComponent, },
     { path: 'profileAccountSetting', component: ProfileAccountSettingComponent },
     { path: 'getintouch', component: ReachUsComponent },

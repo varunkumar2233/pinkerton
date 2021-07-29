@@ -29,6 +29,7 @@ import { ChangePasswordComponent } from './profile-account-setting/change-passwo
 import { PaymentMethodComponent } from './profile-account-setting/payment-method/payment-method.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { PurchaseReportsComponent } from './purchase-reports/purchase-reports.component';
+import { CreditBalanceComponent } from './credit-balance/credit-balance.component';
 @NgModule({
   declarations: [
      HeaderComponent,
@@ -48,6 +49,7 @@ import { PurchaseReportsComponent } from './purchase-reports/purchase-reports.co
     ChangePasswordComponent,
     PaymentMethodComponent,
     PurchaseReportsComponent,
+    CreditBalanceComponent,
   ],
   exports: [PaymentTabComponent],
   imports: [
