@@ -680,7 +680,9 @@ li {
 }
 
 @media screen and (max-width: 767px) {
-
+    .container, .container-sm {
+        max-width: 100%;
+    }
     .successAlertMessages .alert-success,
     .errorAlertMessages .alert-warning {
         font-size: 18px;

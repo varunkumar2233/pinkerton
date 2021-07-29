@@ -190,3 +190,13 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 767px) {
+.filter {
+    margin-bottom: 10px;
+}
+ .report-panel .report-details {
+    padding: 0 0px 30px !important;
+}
+
+}
